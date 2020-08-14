@@ -1,4 +1,5 @@
-package iojavabrains.moviecatalogservice.models;
+package io.javabrains.moviecatalogservice.models;
+
 public class Movie {
 	private String movieId;
 	private String name;

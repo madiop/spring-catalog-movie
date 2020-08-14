@@ -1,8 +1,10 @@
-package iojavabrains.moviecatalogservice.models;
+package io.javabrains.moviecatalogservice.models;
 
 public class Rating {
 	private String movieId;
 	private int rating;
+	
+	public Rating(){}
 	
 	public Rating(String movieId, int rating){
 		this.movieId = movieId;
